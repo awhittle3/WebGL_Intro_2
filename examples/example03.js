@@ -88,8 +88,8 @@ function main() {
         }).then(res=>{return res.text();})
         .then(data => {
             console.log("Parsing file...");
-            objState = OBJLoader.prototype.parse(data);
-            onLoaderLoad(objState.object.geometry);
+            mesh = OBJLoader.prototype.parse(data);
+            onLoaderLoad(mesh);
         });
 
     });
