@@ -14,7 +14,7 @@ You can upload an .obj file to view using the [.obj viewer tab](./html/example03
 
 ## Following the source code
 
-The slides can be found here when they are ready (WIP).
+The slides can be found [here](https://docs.google.com/presentation/d/1G0oI4RSXu9bhvVO_9nfJg-OdxvJwjYsFNBdAQPhrhP0/edit?usp=sharing).
 They explain the flow of the code in the examples.
 
 Start by looking at the comments in the HTML.  Each HTML document invokes an exampleXX.js script which is where the logic for setting up and running WebGL is.
@@ -24,7 +24,7 @@ There is also a script with helper functions called [commonFunctions.js](commonF
 
 ## Note on the models
 
-The .obj models included can be viewed in the [.obj viewer tab](./html/example03.html).
+The [.obj models](./models) can be viewed in the [.obj viewer tab](./html/example03.html).
 You can browse to any .obj file on your machine and try to load it.
 [The code](./examples/example03.js) contains a method to fit the model to the viewing area.
 
